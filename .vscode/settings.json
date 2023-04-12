@@ -1,0 +1,49 @@
+{
+    // vscode默认启用了根据文件类型自动设置tabsize的选项
+    "editor.detectIndentation": true,
+    // 重新设定tabsize
+    "editor.tabSize": 4,
+    // #每次保存的时候自动格式化
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    // 一个tab 代表4个空格宽度
+    "vetur.format.options.tabSize": 4,
+    // 编辑器默认格式化工具 很重要
+    //"editor.defaultFormatter": "octref.vetur",
+    "vetur.completion.scaffoldSnippetSources": {
+    
+        "workspace": "💼",
+        "user": "🗒️",
+        "vetur": "✌"
+    },
+    // 配置格式化工具的选项 根据需要自己配置
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            // Prettier option here https://prettier.io/docs/en/options.html
+            // 字符串单引号
+            "singleQuote": true,
+            // 去掉行末尾分号要
+            "semi": false,
+            // 箭头函数 参数需要()包起来
+            "arrowParens": "always",
+            // 是否用tab  false的话用空格代替tab
+            "useTabs": false,
+            // 去掉对象末尾的逗号
+            "trailingComma": "none"
+        }
+    },
+    "editor.formatOnPaste": true,
+    "go.alternateTools": {
+    
+    },
+    "[go]": {
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "golang.go"
+    }
+}
