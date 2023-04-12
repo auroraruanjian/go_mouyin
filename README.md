@@ -1,19 +1,18 @@
-# README
+# 项目架构
+采用golang+Vue作为主开发语言
+使用技术栈：golang wails作为GUI框架，前端采用Vue+Element plus
+>> 采用多线程数据抓取，提高程序抓取速度。Http请求采用异常重试和自动代理采集
 
-## About
+# 构建方法
+```
+ wails build
+```
 
-This is the official Wails Vue template.
+# 开发模式
+```
+ wails dev
+```
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+# 配置
+可修改`wails.json`对程序标题logo等配置，更多请参考： https://wails.io/docs/reference/project-config
 
-## Live Development
-
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
