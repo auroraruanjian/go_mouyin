@@ -5,7 +5,7 @@ import (
 )
 
 // 接口KEY
-const APIKEY = ""
+const APIKEY = "0403fe55d06a07512103941a0bcb15f0331faff0e4b29692020e4479"
 
 // 是否测试模式
 const ISTEST = false
